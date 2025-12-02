@@ -8,7 +8,7 @@ def vehicle_registration(number, name, vehicle_type, manufacture):
         f"year of manufacture:{manufacture}"
     )
     return result
-if _name_ == "_main_":
+if ___name___=="___main___":
     number = "KA31N2881"
     name = "riya"
     vehicle_type = "car"
