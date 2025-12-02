@@ -1,4 +1,4 @@
-def vehicleregistration_details(vehicleno,ownername,vechicetype,yearofmanufacture):
+def vehicle_registration(vehicleno,ownername,vechicetype,yearofmanufacture):
     result=(
         f"vehicle No:{no}\n"
         f"owner name:{name}\n"
