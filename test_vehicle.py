@@ -2,8 +2,8 @@ from vehicle import vehicle_registration
 
 def test_vehicle_registration():
     expected_output=(
-    Vehicle number="KA31N2881"
-    Vehicle owner name="riya"
+    Vehicle nuo="KA31N2881"
+    owner name="riya"
     Vehicle type="car"
     Year of manifacture=2023
     )
