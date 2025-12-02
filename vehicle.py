@@ -7,8 +7,8 @@ def vehicleregistration_details(vehicleno,ownername,vechicetype,yearofmanufactur
     )
     return result
 if __name__=="__main__":
-    vechicle no="1234"
+    vehicle no="1234"
     ownwe name="riya"
-    vechicle type="car"
+    vehicle type="car"
     year of manufacture=2023
     print(vehicleregistration_details(no,name,type,manufacture))
