@@ -1,5 +1,4 @@
 
-
 def vehicle_registration(number, name, vehicle_type, manufacture):
     result = (
         f"Vehicle number:{number}\n"
