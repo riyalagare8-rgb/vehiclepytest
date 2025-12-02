@@ -1,4 +1,4 @@
-import pytest
+
 
 def vehicle_registration(number, name, vehicle_type, manifacture):
     result = (
