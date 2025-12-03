@@ -1,14 +1,17 @@
+import pytest
 
-def vehicle_registration(number, name, vehicle_type, manufacture):
+def vehicle_registration(number, name, vehicle_type, manifacture):
     result = (
         f"Vehicle number:{number}\n"
         f"vehicle owner name:{name}\n"
         f"vehicle type:{vehicle_type}\n"
-        f"year of manufacture:{manufacture}"
+        f"year of manufacture:{manifacture}"
     )
-if ___name___=="___main___":
+    return result
+
+if __name__ == "__main__":
     number = "KA31N2881"
-    name = "riya"
+    name = "sara"
     vehicle_type = "car"
-    manufacture = 2023
-    print(vehicle_registration(number, name, vehicle_type,manufacture))
+    manifacture = 2015
+    print(vehicle_registration(number, name, vehicle_type, manifacture))
